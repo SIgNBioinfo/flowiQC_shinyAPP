@@ -1,0 +1,6 @@
+#name: Name
+#FCS_File: NA
+name	FCS_File
+PBMC_NO STIM_Naive CD4.fcs	PBMC_NO STIM_Naive CD4.fcs	PBMC_NO STIM_Naive CD4.fcs
+PBMC_NO STIM_Naive CD8.fcs	PBMC_NO STIM_Naive CD8.fcs	PBMC_NO STIM_Naive CD8.fcs
+PBMC_NO STIM_total CD4.fcs	PBMC_NO STIM_total CD4.fcs	PBMC_NO STIM_total CD4.fcs
