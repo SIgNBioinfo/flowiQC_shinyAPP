@@ -191,10 +191,10 @@ shinyServer(function(input, output, session) {
             return(NULL)
         cnframe <- fcn()
         data <- as.data.frame(cnframe[match(input$samples, cnframe$sampleName), ] )
-        gvisColumnChart(data[order(data$cellNumber),], 
+        gvisColumnChart(data, 
                         xvar = "sampleName", yvar = "cellNumber",
                         options=list(title="Cell Number for Each Sample",
-                                     width = 900, height = 500)
+                                     width = 900, height = 500, vAxis="{minValue: 0}")
         )
     })
     
